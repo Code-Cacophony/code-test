@@ -17,6 +17,7 @@ body {
 
 .btn {
     border: solid black 2px;
+    background-color: grey;
 }
 
 img {
