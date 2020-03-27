@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    $("form#user-input").submit(function (event) {
+    $("form#user-info").submit(function (event) {
         event.preventDefault();
         var age = parseInt($("#age").val());
         var gender = parseInt($("#gender").val());
@@ -7,10 +7,12 @@ $(document).ready(function () {
         var band = parseInt($("#favorite-band").val());
         var food = parseInt($("#favorite-food").val());
 
-        if (age <= 18 || gender === 1 || animal === 4 && band === 7) {
+        if (animal === 4 && band === 7 && food === 10) {
             $("#ruby").show();
-        } else if (age >= 18 && gender === 1 || animal === 5 && band === 8) {
+        } else if (animal === 5 && band === 8 && food === 11) {
             $("#python").show();
+        } else {
+            $("#javascript").show();
         }
 
     });
