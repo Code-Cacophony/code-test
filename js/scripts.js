@@ -5,10 +5,12 @@ $(document).ready(function () {
         var band = parseInt($("#favorite-band").val());
         var food = parseInt($("#favorite-food").val());
 
-        if (animal === 4 && band === 7 && food === 10) {
+        if (animal === 1 && band === 4 && food === 7) {
             $("#ruby").show();
-        } else if (animal === 5 && band === 8 && food === 11) {
+        } else if (animal === 2 && band === 5 && food === 8) {
             $("#python").show();
+        } else if (animal === 0 || band === 0 || food === 0) {
+            $("#error").show();
         } else {
             $("#javascript").show();
         }

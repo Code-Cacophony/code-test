@@ -11,6 +11,10 @@
     display: none;
 }
 
+#error {
+    display: none;
+}
+
 body {
     background-color: beige;
 }
