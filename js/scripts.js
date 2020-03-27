@@ -1,8 +1,6 @@
 $(document).ready(function () {
     $("form#user-info").submit(function (event) {
         event.preventDefault();
-        var age = parseInt($("#age").val());
-        var gender = parseInt($("#gender").val());
         var animal = parseInt($("#favorite-animal").val());
         var band = parseInt($("#favorite-band").val());
         var food = parseInt($("#favorite-food").val());

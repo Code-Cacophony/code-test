@@ -10,3 +10,11 @@
 #javascript {
     display: none;
 }
+
+body {
+    background-color: beige;
+}
+
+.btn {
+    border: solid black 2px;
+}
